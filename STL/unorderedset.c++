@@ -4,7 +4,7 @@ using namespace std;
 void explainunorderedset()
 {
     unordered_set<int> st;
-    //it stores unique elements but not in soted order
+    //it stores unique elements but not in sorted order
     // lower and upper bound doesnot work 
     //0(1) worst case 0(n)(rare)
     st.insert(23);
