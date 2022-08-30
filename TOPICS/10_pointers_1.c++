@@ -1,4 +1,4 @@
-/*
+/*pointers
 
 
         POINTERS are used to store the address of a variable (memory location)

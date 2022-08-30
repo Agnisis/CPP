@@ -1,4 +1,4 @@
-//practice arrays concepts 
+//arrays 
 
 #include<iostream>
 using namespace std;
