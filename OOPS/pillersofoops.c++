@@ -31,19 +31,6 @@ ADVANTAGES:
 
 
 
-
-
-
-INHERITANCE:
-
-INHERIT PROPERTIES OF PARENT CLASS BY OTHER CHILD CLASSES
-
-
-
-
-
-
-
 */
 
 #include <iostream>

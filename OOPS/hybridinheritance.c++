@@ -16,7 +16,7 @@ public:
 class b 
 {
 public:
-    void func2() { cout << "hello b"<<endl; }
+    void func() { cout << "hello b"<<endl; }
 };
 
 
@@ -25,7 +25,7 @@ public:
 class c : public b
 {
 public:
-    void func3() { cout << "hello c"<<endl; }
+    void func() { cout << "hello c"<<endl; }
 };
 // multiple inheritance
 
@@ -52,12 +52,13 @@ int main()
 {
 
     d obj;
-    obj.func2();
+    obj.func();
     obj.func1();
 
 
     e obj1;
     // obj1.func2();   member is ambigious
+    obj1.c::func();// scope resolution operator for explicitly mention of class
     return 0;
 
 
