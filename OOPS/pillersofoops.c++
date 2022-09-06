@@ -71,10 +71,6 @@ public:
 
 
 
-
-//INHERITANCE
-
-
 int main()
 {
 
