@@ -1,4 +1,6 @@
-//arrays 
+ /* ARRAY IS A DATA STRUCTURE WHICH STORE SIMILAR TYPES OF DATA IN A CONTINIOUS FASHION 
+ 
+*/
 
 #include<iostream>
 using namespace std;
